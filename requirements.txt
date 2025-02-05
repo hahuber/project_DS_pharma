@@ -1,2 +1,7 @@
-# Requirements
-
+numpy
+pandas
+scikit-learn
+fastapi
+uvicorn
+streamlit
+mlflow

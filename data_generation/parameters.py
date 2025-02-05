@@ -1,2 +1,47 @@
-"""Module: parameters.py"""
+# Mixing process parameters
+MIXING_TIME_MIN = 10.0
+MIXING_TIME_MAX = 15.0
+MIXING_SPEED_MIN = 90.0
+MIXING_SPEED_MAX = 110.0
 
+# Granulation process parameters
+GRANULATION_TIME_MIN = 20.0
+GRANULATION_TIME_MAX = 30.0
+BINDER_RATE_MIN = 10.0
+BINDER_RATE_MAX = 20.0
+
+# Drying process parameters
+DRYING_TEMP_MIN = 55
+DRYING_TEMP_MAX = 65
+MOISTURE_CONTENT_MIN = 3.0
+MOISTURE_CONTENT_MAX = 6.0
+
+# Compression process parameters
+COMPRESSION_PRESSURE_MIN = 140
+COMPRESSION_PRESSURE_MAX = 160
+TABLET_HARDNESS_MIN = 7.0
+TABLET_HARDNESS_MAX = 9.0
+
+# Additional constants for derived metrics
+DISSOLUTION_BASE = 85.0
+YIELD_PERCENT_BASE = 95.0
+
+# Environmental parameters
+AMBIENT_TEMP_MEAN = 22.0   # degrees Celsius
+AMBIENT_TEMP_STD = 2.0
+HUMIDITY_MEAN = 50.0       # percentage
+HUMIDITY_STD = 10.0
+
+# Additional failure and threshold parameters
+UNIFORMITY_INDEX_BASE = 0
+GRANULE_DENSITY_MIN = 0
+MOISTURE_CONTENT_FAILURE = 1e100
+DISSOLUTION_MIN = 0
+YIELD_PERCENT_MIN = 0
+
+# # Realistic failure and threshold parameters (commented out)
+# UNIFORMITY_INDEX_THRESHOLD = 0.7
+# GRANULE_DENSITY_MIN = 1.2
+# MOISTURE_CONTENT_FAILURE = 5.0
+# DISSOLUTION_MIN = 75.0
+# YIELD_PERCENT_MIN = 85.0
